@@ -1,11 +1,16 @@
 import React from "react";
+import styled from "styled-components";
 
 const Home = () => {
   return (
-    <div>
+    <Background>
       <div>Stoom</div>
-    </div>
+    </Background>
   );
 };
+
+const Background = styled.div`
+  background: ${({ theme }) => theme.background};
+`;
 
 export default Home;
