@@ -1,0 +1,10 @@
+{
+  "files.associations": {
+    "*.js": "javascriptreact",
+    ".stylelintrc": "json"
+  },
+  /** stylelint auto-fix */
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  }
+}
