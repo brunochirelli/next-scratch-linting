@@ -1,8 +1,11 @@
-import Head from "next/head";
-import Image from "next/image";
+import React from "react";
 
-import styled from "styled-components";
+const Home = () => {
+  return (
+    <div>
+      <div>Stoom</div>
+    </div>
+  );
+};
 
-export default function Home() {
-  return <div>Oie</div>;
-}
+export default Home;
