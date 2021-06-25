@@ -1,0 +1,15 @@
+/* 
+THEME v0.1.0
+
+A questão do tema ainda pode ser 
+debatida com estratégias diferentes 
+ou complementares
+
+*/
+:root {
+  --color-primary: blue;
+  --color-secondary: red;
+
+  --font-primary: sans-serif;
+  --font-secondary: serif;
+}
